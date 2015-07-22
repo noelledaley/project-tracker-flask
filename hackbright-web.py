@@ -32,6 +32,12 @@ def add_new_student():
     return render_template("new_student.html")
 
 
+@app.route("/confirm-new-student", methods=["POST"])
+def confirm_new_student():
+
+
+    return 
+
 
 
 
