@@ -43,15 +43,3 @@ def confirm_new_student():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-    # def make_new_student(first_name, last_name, github):
-    # """Add a new student and print confirmation.
-
-    # Given a first name, last name, and GitHub account, add student to the
-    # database and print a confirmation message.
-    # """
-
-    # QUERY = """INSERT INTO Students VALUES (?, ?, ?)"""
-    # db_cursor.execute(QUERY, (first_name, last_name, github))
-    # db_connection.commit()
-    # return "Successfully added student: %s %s" % (first_name, last_name)
