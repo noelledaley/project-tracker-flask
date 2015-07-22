@@ -20,7 +20,7 @@ def get_student_by_github(github):
         """
     db_cursor.execute(QUERY, (github,))
     first, last, github = db_cursor.fetchone()
-    print "Student: %s %s\nGithub account: %s" % (first, last, github)
+    # print "Student: %s %s\nGithub account: %s" % (first, last, github)
     return (first, last, github)
 
 
